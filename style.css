@@ -1,0 +1,108 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body {
+    background: rgb(255,126,9);
+background: linear-gradient(90deg, rgba(255,126,9,1) 0%, rgba(247,213,0,1) 52%, rgba(252,208,69,0.9262298669467787) 67%);
+    color: white;
+    overflow-x: hidden;
+}
+
+header h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5.0px;
+}
+
+h3 {
+    color: black;
+}
+
+#navbar {
+    font-size: 24px;
+    max-width: 100%;
+}
+
+nav ul {
+    display: flex;  /* enable flexbox for the list */
+    justify-content: space-between;  /* evenly distribute the space between the list items */
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    padding-top: 1%;
+}
+
+
+.zoom {
+    transition: transform .2s; /* Animation */
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+.zoom:hover {
+    text-decoration: none;
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+a:active {
+    text-decoration: none;
+}
+
+img.animated-gif {
+    width: 480px;
+    height: 360px;
+} 
+
+.container-1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1%;
+    max-width: 100%;
+
+}
+
+.container-2 {
+    text-align: center;
+    
+}
+
+.container-3 {
+    display: flex;
+    
+}
+
+.box-3 {
+    flex-direction: row;
+    display: inline-block;
+    justify-content: space-around;
+    text-align: center;
+    flex: 2;
+    font-size: 32px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.box-4 {
+    text-align: center;
+}
