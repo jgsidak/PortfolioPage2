@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
 *{
     margin:0;
     padding:0;
+    
 }
 
 body {
@@ -9,11 +12,11 @@ body {
     0%, rgba(247,213,0,1) 52%, rgba(252,208,69,0.9262298669467787) 67%);
     color: white;
     overflow-x: hidden;
+    font-family: 'Lato', sans-serif;
 }
 
 header h1 {
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 5.0px;
 }
 
@@ -77,6 +80,7 @@ img.animated-gif {
     justify-content: space-between;
     padding-top: 1%;
     max-width: 100%;
+    background-color: black;
 
 }
 
@@ -85,9 +89,22 @@ img.animated-gif {
     
 }
 
+.container-2 h2 {
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.container-2 h3 {
+    padding-bottom: 3%;
+}
+
 .container-3 {
     display: flex;
     
+}
+
+.container-3 h4 {
+    padding-bottom: 2%;
 }
 
 .box-3 {
@@ -107,5 +124,22 @@ img.animated-gif {
 }
 
 .box-4 {
-    text-align: center;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    flex-direction: column;
 }
+
+.container-4 {
+    display: flex;
+    justify-content: center;
+}
+
+#centerimage {
+    align-self: center;
+}
+
+#centerimage img {
+    margin: 0 auto;
+}
+    
